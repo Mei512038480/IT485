@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Super Store Analysis</title>
+	<link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
+	<script src="bootstrap.min.js"></script>
+	<script src="jquery.min.js"></script>
+	<style type="text/css">
+	.auto-style1 {
+		font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+		font-size: large;
+	}
+	.auto-style2 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: medium;
+}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h2>Welcome to Super Store Analaysis</h2>
+		</div>
+		<div class="row">
+	        <div class='col-sm-6'>
+	        	<form>
+		            <div class="form-group">
+		                <div class='input-group date' id='datepicker'>
+		                    <input type='text' class="form-control" />
+		                    <span class="input-group-addon">
+		                        <span class="glyphicon glyphicon-calendar"></span>
+		                    </span>
+		                </div>
+		            </div>
+		        </form>
+	        </div>
+	    </div>
+	</div>
+	<script type="text/javascript" src="bootstrap-datepicker.min.js"></script>
+	<script >
+	    $(function () {
+	        $('#datepicker').datepicker({
+	            format: "dd/mm/yyyy",
+	            autoclose: true,
+	            todayHighlight: true,
+		        showOtherMonths: true,
+		        selectOtherMonths: true,
+		        autoclose: true,
+		        changeMonth: true,
+		        changeYear: true,
+		        orientation: "button"
+	        });
+	    });
+	</script>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> 
+	<span class="auto-style2">&nbsp;&nbsp; 
+	Please select the date you want to analysis</span><span class="auto-style1"><img height="40" src="uparrow.png" width="31"></span></p>
+</body>
+</html>
